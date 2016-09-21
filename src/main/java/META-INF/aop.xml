@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+
+<aspectj>
+	<aspects>
+		<concrete-aspect name="HelloAspectj" extends="com.bicjo.aspectj.HelloAspectj">
+			<pointcut name="scope" expression="within(com..*)"/>
+		</concrete-aspect>
+	</aspects>
+</aspectj>
